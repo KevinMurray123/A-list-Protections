@@ -7,18 +7,25 @@
 }
 
 
-
 .nav{
     display: grid;
-    grid-template-columns: 100px auto auto auto auto auto;
+    grid-template-columns: 100px 280px 30% auto auto auto auto;
     font-size: 1.5rem;
     text-decoration: none;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(88, 88, 88);
     height: 100px;
     line-height: 100px;
     color: #470e15;
     font-weight: bolder;
     font-size: 40px;
+}
+
+.textLogo{
+    line-height: 100px;
+    color: #470e15;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
 }
 
 a:link, a:visited {
