@@ -1,5 +1,55 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.nav{
+    display: grid;
+    grid-template-columns: 100px 280px 30% auto auto auto auto;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(88, 88, 88);
+    height: 100px;
+    line-height: 100px;
+    color: #470e15;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.textLogo{
+    line-height: 100px;
+    color: #470e15;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+a:hover, a:active {
+    /* color: #470E15; */
+    color: #b42536;
+    font-size: 30px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+/* Testimonials Style */
 body{
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(88, 88, 88);
 }
 
 .drake{
@@ -12,14 +62,14 @@ body{
     width: 280px;
 }
 
-div{
+.Testimonials{
     display: grid;
-}
-
-p{
     font-family: Verdana;
-    color: darkred;
-    font-weight: 200px;
-    
+    color: rgb(240, 240, 240);
+    font-size: small;
 }
 
+.stars{
+    height: 50px;
+    width: 250px;
+}
