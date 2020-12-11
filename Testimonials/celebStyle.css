@@ -10,36 +10,40 @@
 .nav{
     display: grid;
     grid-template-columns: 100px 280px 30% auto auto auto auto;
+    grid-template-rows: 100px;
     font-size: 1.5rem;
     text-decoration: none;
-    background-color: rgb(88, 88, 88);
+    background-color: #100e03af;
     height: 100px;
     line-height: 100px;
-    color: #470e15;
     font-weight: bolder;
     font-size: 40px;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px #3d050f solid;
 }
 
 .textLogo{
     line-height: 100px;
-    color: #470e15;
+    color: #5A131B;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
 }
 
 a:link, a:visited {
-    color: white;
+    color: #d3d3d3;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
 }
 
-a:hover, a:active {
-    /* color: #470E15; */
-    color: #b42536;
+a:hover, a:active{
+    transition: color 0.2s;
     font-size: 30px;
+    color: #5A131B;
 }
 
 .logo{
