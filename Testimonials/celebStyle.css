@@ -52,24 +52,40 @@ body{
     background-color: rgb(88, 88, 88);
 }
 
-.drake{
+.drakePic{
+    height: 200px;
+    width: 200px;
+}
+.arianaPic{
+    height: 200px;
+    width: 200px;
+}
+.tomPic{
+    height: 200px;
+    width: 200px;
+}
+.leonardoPic{
     height: 200px;
     width: 200px;
 }
 
-.leonardo{
-    height: 200px;
-    width: 280px;
+h1{
+    color: rgb(240, 240, 240);
 }
 
 .Testimonials{
     display: grid;
-    font-family: Verdana;
     color: rgb(240, 240, 240);
+    font-family: Verdana;
     font-size: small;
 }
 
+/* .Testimonials p{
+    font-size: ;
+} */
+
 .stars{
     height: 50px;
-    width: 250px;
+    width: 300px;
 }
+
