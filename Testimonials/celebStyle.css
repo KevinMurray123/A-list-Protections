@@ -52,40 +52,42 @@ body{
     background-color: rgb(88, 88, 88);
 }
 
-.drakePic{
-    height: 200px;
-    width: 200px;
-}
-.arianaPic{
-    height: 200px;
-    width: 200px;
-}
-.tomPic{
-    height: 200px;
-    width: 200px;
-}
-.leonardoPic{
-    height: 200px;
-    width: 200px;
-}
-
 h1{
     color: rgb(240, 240, 240);
+    padding-top: 5px;
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.photos{
+    height: 200px;
+    width: 200px;
+    margin: auto;
 }
 
 .Testimonials{
     display: grid;
     color: rgb(240, 240, 240);
-    font-family: Verdana;
-    font-size: small;
+    align-content: flex-start;
+    grid-template-columns: auto auto auto auto;
 }
 
-/* .Testimonials p{
-    font-size: ;
-} */
+.Testimonials img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Testimonials p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 15px;
+    text-align: center;
+}
 
 .stars{
     height: 50px;
     width: 300px;
+    margin: auto;
 }
-
