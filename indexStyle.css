@@ -27,29 +27,32 @@ body{
     z-index: 10;
     position: sticky;
     top: 0;
+    border-bottom: 3px #3d050f solid;
 }
 
 .textLogo{
     line-height: 100px;
-    color: #730A1D;
+    color: #5e131b;
     font-weight: bolder;
     font-size: 40px;
     text-align: left;
 }
 
 a:link, a:visited {
-    color: white;
+    color: #d3d3d3;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
 }
 
-a:hover, a:active {
-    /* color: #470E15; */
-    color: #b42536;
+a:hover, a:active{
+    transition: color 0.2s;
     font-size: 30px;
+    color: #5e131b;
 }
+
+
 
 .logo{
     width: 100px;
@@ -81,13 +84,13 @@ a:hover, a:active {
 }
 
 .main{
-    color: #b3b3b3;
-    font-size: 3rem;
+    color: #d3d3d3;
+    font-size: 3.5rem;
     width: 35%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 15%;
     display: block;
-    animation: hide 1s linear infinite;
+    animation: hide 0.5s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
     animation-iteration-count: 1;
@@ -102,9 +105,9 @@ a:hover, a:active {
 
 .item {
     width: 35%;
-    margin: 10% 0 0 10%;
+    margin: 20% 0 0 10%;
 
-    color: #b3b3b3;
+    color: #d3d3d3;
     font-size: 2rem;
     margin-bottom: 200px;
     text-align: center;
@@ -120,16 +123,18 @@ a:hover, a:active {
 }
 
 .item{
-    color: #b3b3b3;
+    color: #d3d3d3;
     font-size: 2rem;
     width: 35%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 25%;
+    margin-bottom: 8%;
     display: block;
-    animation: show 2.5s linear infinite;
+    animation: show 1s linear infinite;
     animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
     animation-iteration-count: 1;
     animation-fill-mode: both;
     opacity: 0;
+    
 }
