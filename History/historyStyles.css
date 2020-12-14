@@ -5,7 +5,9 @@
 }
 
 html{
-    background-color: #000112;
+    background-image: url(../media/84b7856f-5010-45c9-8f62-87ffefa12a17.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 main{
@@ -23,14 +25,16 @@ main{
 } */
 
 h1{
+    position: relative;
     font-family: 'Oswald', sans-serif;
-    font-size: 72px;
+    font-size: 52px;
     margin-top: 100px;
     color: rgb(240, 240, 240);
+    left: 950px;
 }
 
 body { 
-    text-align: center; 
+    overflow-x: hidden;
 } 
 main{
     margin-top: 50px;
@@ -50,13 +54,19 @@ p {
     font-size: 17px; 
 }  
 
+.content{
+    position: absolute;
+    width: 300px;
+    left: 1000px;
+}
+
 .nav{
     display: grid;
     grid-template-columns: 100px 280px 30% auto auto auto auto;
     grid-template-rows: 100px;
     font-size: 1.5rem;
     text-decoration: none;
-    background-color: rgb(39, 39, 39);
+    background-color: #100e03af;
     height: 100px;
     line-height: 100px;
     font-weight: bolder;
@@ -64,30 +74,33 @@ p {
     z-index: 10;
     position: sticky;
     top: 0;
+    border-bottom: 3px #3d050f solid;
 }
 
 .textLogo{
     line-height: 100px;
-    color: #730A1D;
+    color: #5A131B;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
 }
 
 a:link, a:visited {
+    color: #d3d3d3;
     font-family: 'Oswald', sans-serif;
-    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
 }
 
-a:hover, a:active {
+a:hover, a:active{
     transition: color 0.2s;
-    color: #b42536;
     font-size: 30px;
+    color: #5A131B;
 }
+
+
 
 .logo{
     width: 100px;
