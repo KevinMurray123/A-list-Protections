@@ -1,17 +1,13 @@
-*,
-*::after,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-.nav{
+.nav {
     display: grid;
     grid-template-columns: 100px 280px 30% auto auto auto auto;
     grid-template-rows: 100px;
-    font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
     background-color: #100e03af;
@@ -25,7 +21,7 @@
     border-bottom: 3px #3d050f solid;
 }
 
-.textLogo{
+.textLogo {
     line-height: 100px;
     color: #5A131B;
     font-weight: bolder;
@@ -35,29 +31,30 @@
 
 a:link, a:visited {
     color: #d3d3d3;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
 }
 
-a:hover, a:active{
+a:hover, a:active {
     transition: color 0.2s;
     font-size: 30px;
     color: #5A131B;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-
 /* Testimonials Style */
-body{
+
+body {
     background-color: #000112;
 }
 
-h1{
+h1 {
     color: rgb(240, 240, 240);
     font-family: 'Oswald', sans-serif;
     padding-top: 5px;
@@ -66,7 +63,7 @@ h1{
     letter-spacing: 2px;
 }
 
-h2{
+h2 {
     color: rgb(240, 240, 240);
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -74,36 +71,34 @@ h2{
     letter-spacing: 1.5px;
 }
 
-.photos{
+.photos {
     height: 200px;
     width: 200px;
     margin: auto;
 }
 
-.Testimonials{
+.Testimonials {
     display: grid;
     color: rgb(240, 240, 240);
     align-content: flex-start;
     grid-template-columns: auto auto auto auto;
 }
 
-.Testimonials img{
+.Testimonials img {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.Testimonials p{
-    font-family:'Khula';
+.Testimonials p {
+    font-family: 'Khula';
     font-size: medium;
     padding: 15px;
     text-align: center;
 }
 
-.stars{
+.stars {
     height: 50px;
     width: 300px;
     margin: auto;
 }
-
-
