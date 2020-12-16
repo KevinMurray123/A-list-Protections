@@ -82,6 +82,7 @@ h2 {
     color: rgb(240, 240, 240);
     align-content: flex-start;
     grid-template-columns: auto auto auto auto;
+    transition: all ease-in 1s;
 }
 
 .Testimonials img {
